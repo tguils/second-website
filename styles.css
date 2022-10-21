@@ -35,7 +35,7 @@ body {
     margin-inline-end: .5em;
 }
 
-/*@media (min-width:390px) {
+@media (max-width: 391px) {
     .primary-navigation {
         position: fixed;
         inset: 0 0 0 30%;
@@ -43,7 +43,7 @@ body {
         flex-direction: column;
         padding: min(30vh, 10rem) 2em;
     }
-}*/
+}
 
 .flex {
     display: flex;
