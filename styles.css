@@ -1,7 +1,11 @@
 body {
     margin: 0;
     padding: 0;
-    background: rgb(144, 238, 144, .5);
+    background-image: url(backgroundimage2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+    backgroung-position: fixed;
+    /*background: rgb(144, 238, 144, .5);*/
     
 }
 /*primary header */
@@ -19,7 +23,7 @@ body {
     list-style: none;
     padding: 0;
     margin: 1em;
-    margin-left: 3em;
+    margin-left: 5em;
     justify-content: flex-start;
     background: grey, .1%;
     backdrop-filter: blur(1rem);
@@ -27,13 +31,22 @@ body {
 
 .primary-navigation a {
     text-decoration: none;
-    margin
+    color:rgb(240, 240, 239);
+    font-weight: 300;
+    font-size: 20px;
+    text-shadow: 2px 5px 4px rgb(145, 136, 136); 
+}
+
+.primary-navigation a:hover {
+    color:rgb(21, 101, 10);
 }
 
 .primary-navigation a > span  {
     font-weight: 700;
     margin-inline-end: .5em;
 }
+
+
 
 @media (max-width: 391px) {
     .primary-navigation {
@@ -52,8 +65,25 @@ body {
 
 .logo {
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     padding: 0;
-    margin: 10px 0px 0px 10px;
+    margin: 3px 0px 0px 3px;
+    position: absolute;
 }
+
+.title {
+   
+    align-items: center;
+}
+img {
+    width: 500px;
+    height: 200px;
+    position: aboslute;
+    margin-left: 550px;
+}
+h1 {
+  text-align: center;
+  position: fixed;
+}
+
