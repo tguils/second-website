@@ -4,7 +4,7 @@ body {
     background-image: url(backgroundimage2.jpg);
     background-repeat:no-repeat;
     background-size: cover;
-    backgroung-position: fixed;
+    background-position: fixed;
     /*background: rgb(144, 238, 144, .5);*/
     
 }
@@ -76,14 +76,9 @@ body {
    
     align-items: center;
 }
-img {
-    width: 500px;
-    height: 200px;
-    position: aboslute;
-    margin-left: 550px;
-}
+
 h1 {
   text-align: center;
-  position: fixed;
+ 
 }
 
