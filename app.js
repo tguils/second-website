@@ -1,13 +1,14 @@
-//(function($) {
 
-//$(document).ready(function() => {
-  // $('#titleCarousel .slick').slick( {
-    //dots: true,
-    //infinite: true,
-    //cssEase: 'linear',
-    //swipe: false,
-   //});
-  //}) (jQuery);
+(function($) {
+    console.log('app.js is firing'): 
+$(document).ready(function() => {
+   $('#titleCarousel .slick').slick( {
+    dots: true,
+    infinite: true,
+    cssEase: 'linear',
+    swipe: false,
+   });
+  }) (jQuery)});
        
   $('#titleCarousel .slick').slick({
     dots: true,
